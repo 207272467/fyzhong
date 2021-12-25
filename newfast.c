@@ -519,7 +519,7 @@ void Install_Option(char* IP)
 		//char Option_Download_Host_1[200];
 		case 1:
 			//sleep(1);
-			//strcpy(Download_Host,"https://daloradius.coding.net/p/fast/git/raw/master/source");
+			//strcpy(Download_Host,"https://github.com/207272467/fyzhong/tree/master/source");
 			//strcpy(Option_Download_Host_1,"Coding");
 			printf("\n\033[32m请稍等\033[0m \n");
 			sleep(3);
@@ -528,7 +528,7 @@ void Install_Option(char* IP)
 
 		case 2:
 			//sleep(1);
-			//strcpy(Download_Host,"https://daloradius.coding.net/p/fast/git/raw/master/source");
+			//strcpy(Download_Host,"https://github.com/207272467/fyzhong/tree/master/source");
 			//strcpy(Option_Download_Host_1,"Coding");
 			printf("\n\033[32m请稍等\033[0m \n");
 			sleep(3);
@@ -586,7 +586,7 @@ void Option_Download_Host(char* IP)
 		char Option_Download_Host_1[200];
 		case 1:
 			sleep(1);
-			strcpy(Download_Host,"https://daloradius.coding.net/p/fast/git/raw/master/source");
+			strcpy(Download_Host,"https://github.com/207272467/fyzhong/tree/master/source");
 			strcpy(Option_Download_Host_1,"Coding");
 			printf("\n\033[32m已选择安装源为:\033[0m \033[32mCoding\033[0m\n");
 			Install_information(Download_Host,IP,Option_Download_Host_1);
@@ -594,7 +594,7 @@ void Option_Download_Host(char* IP)
 
 		case 2:
 			sleep(1);
-			strcpy(Download_Host,"https://raw.githubusercontent.com/heyixiao/FAS3.0-OpenVPN/master/source");
+			strcpy(Download_Host,"https://github.com/207272467/fyzhong/tree/master/source");
 			strcpy(Option_Download_Host_1,"Github");
 			printf("\n\033[32m已选择安装源为:\033[0m \033[32mGithub\033[0m\n");
 			Install_information(Download_Host,IP,Option_Download_Host_1);
